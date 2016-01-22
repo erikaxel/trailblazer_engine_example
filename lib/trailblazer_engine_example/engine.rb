@@ -1,5 +1,6 @@
 require 'trailblazer'
 require 'trailblazer/operation/model'
+require 'simple_form'
 
 module TrailblazerEngineExample
   class Engine < ::Rails::Engine

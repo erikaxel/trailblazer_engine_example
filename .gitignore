@@ -22,6 +22,13 @@ config/secrets.yml
 
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
+# Gemfile.lock should not be part of Engine repo:
+Gemfile.lock
+
+# Test files:
+spec/dummy/.generators
+spec/dummy/db/*
+spec/dummy/log/*
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
@@ -33,3 +40,7 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# IDEA files
+.idea
+*.iml

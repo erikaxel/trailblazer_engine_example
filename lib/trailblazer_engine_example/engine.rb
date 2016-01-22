@@ -1,5 +1,6 @@
 require 'trailblazer'
 require 'trailblazer/operation/model'
+require 'trailblazer/operation/controller'
 require 'simple_form'
 
 module TrailblazerEngineExample
